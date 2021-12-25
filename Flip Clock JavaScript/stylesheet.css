@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=ZCOOL+QingKe+HuangYou&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #060a1f;
+    flex-direction: column;
+}
+.clock{
+    width: auto;
+}
+.flip-clock-divider {
+    -webkit-box-reflect: below 1px linear-gradient(transparent , #3443);
+}
+.flip-clock-dot{
+    background-color: #ffffff;
+}
+.flip-clock-meridium a{
+    color: rgb(253, 253, 253);
+    background-color: #ff006a;
+}
+.flip-clock-meridium{
+-webkit-box-reflect: below 1px linear-gradient(transparent , #3443);
+}
+.flip-clock-wrapper ul li a div div.inn{
+    background-color: #0099ff;
+   box-shadow:  0 0 0 1px rgba(0, 0, 0, 0.3);
+}
+.flip-clock-wrapper ul li a div{
+    -webkit-box-reflect: below 1px linear-gradient(transparent , #3443);
+}
+.title h1{
+    letter-spacing: 0.1em;
+    color: #ffffff;
+    font-family: "Gugi",sans-serif;
+}
+
+footer{
+    margin-top: 20vh;
+    /* background-color: #0099ff; */
+    box-shadow: 1rem 1rem 10rem rgba(0, 0, 0, 0.3);
+    padding: 15px 20px;
+    border: 2px solid transparent;
+    border-image-source: linear-gradient(115deg, #ff3881, #541fc4, #ff4800, #0099ff, #44ce7b);
+    border-image-slice: 1;
+    -webkit-box-reflect: below 1px linear-gradient(transparent , #0004);
+}
+footer p{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: "Gugi",sans-serif;
+}

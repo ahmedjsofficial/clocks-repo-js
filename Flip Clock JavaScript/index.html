@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./flipclock.css" />
+    <link rel="stylesheet" type="text/css" href="./stylesheet.css" />
+    
+</head>
+<body>
+
+    <div class="title">
+        <h1>Flip Clock Modern JavaScript (ES6)!</h1>
+    </div>
+    <div class="clock"></div>
+    <footer>
+        <p>&copy; CpoyRight All resereved rights | Coding Maina 2020</p>
+    </footer>
+    <script src="./jquery-3.4.1.js"></script>
+    <script src="./flipclock.js"></script>
+    <script>
+        var clock = $('.clock').FlipClock({
+            clockFace: 'TwelveHourClock'
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=ZCOOL+QingKe+HuangYou&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "ZCOOL QingKe HuangYou";
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #060a1f;
+    flex-direction: column;
+}
+#clock h2{
+    position: relative;
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    margin: 10px 0px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.4em;
+    font-size: 1em;
+}
+#clock #time {
+    display: flex;
+}
+#clock #time div {
+    position: relative;
+    margin: 0 5px;
+    -webkit-box-reflect: below 1px linear-gradient(transparent , #0004);
+}
+#clock #time div span{
+    position: relative;
+    width: 100px;
+    height: 80px;
+    background: transparent;
+    color: #ffffff;
+    font-weight: 300;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 3em;
+    z-index: 10;
+    box-shadow:  0 0 0 1px rgba(0, 0, 0, 0.3);
+}
+#clock #time div span:nth-child(2){
+    height: 30px;
+    font-size: .8em;
+    letter-spacing: 0.2em;
+    font-weight: 700;
+    z-index: 9;
+    box-shadow: none;
+    background: #000000;
+    text-transform: uppercase;
+}
+footer{
+    margin-top: 20vh;
+    /* background-color: #0099ff; */
+    box-shadow: 1rem 1rem 10rem rgba(0, 0, 0, 0.3);
+    padding: 15px 20px;
+    border: 2px solid transparent;
+    border-image-source: linear-gradient(115deg, #ff3881, #541fc4, #ff4800, #0099ff, #44ce7b);
+    border-image-slice: 1;
+    -webkit-box-reflect: below 1px linear-gradient(transparent , #0004);
+}
+footer p{
+    color: #ffffff;
+    font-size: 20px;
+}
